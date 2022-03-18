@@ -413,9 +413,9 @@ int cmd_reflog(int argc, const char **argv, const char *prefix)
 			     PARSE_OPT_NO_INTERNAL_HELP);
 
 	/*
-	  * With "git reflog" we default to showing it. !argc is
-	  * impossible with PARSE_OPT_KEEP_ARGV0.
-	  */
+	 * With "git reflog" we default to showing it. !argc is
+	 * impossible with PARSE_OPT_KEEP_ARGV0.
+	 */
 	if (argc == 1)
 		goto log_reflog;
 
